@@ -1,4 +1,4 @@
-let n = parseInt(prompt("Quanto?"));
+let n = parseInt(prompt("Quantos itens?"));
 let preco = [];
 let i = 0;
 let total = 0;
