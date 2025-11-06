@@ -1,15 +1,14 @@
-let quantidade parseInt(prompt("Quantos numeros?"))
+let quantidade = parseInt(prompt("Quantos números?"))
 var pares = 0, impares = 0
-const numeros = []
 for(let i=0; i<quantidade; i++){
-numeros[i] prompt()
-if(numeros [1]%2==0)
+numeros[i] = prompt()
+if(numeros [i] % 2 == 0)
   pares++
 else
   impares++
 }
 document.writeln(`<b>Números informados<br>`)
 for(let i=0; i<quantidade;i++){
-  document.writeln (numeros[i])
+  document.writeln(numeros[i])
 }
-document.writeln(`<br>Quantidade de pares: $(pares)<br>Quantidade de impares: ${impares)`)
+document.writeln(`<br>Quantidade de pares: ${pares}<br>Quantidade de impares: ${impares}`)
